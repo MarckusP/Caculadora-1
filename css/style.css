@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(246, 250, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tudo {
+    margin-top: 150px;
+    width: 450px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 64, 120);
+    border-radius: 20px;
+}
+
+
+.Tela {
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    color: aliceblue;
+}
+
+.Tela p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+.resultado {
+    width: 90%;
+    height: 90%;
+    border: 1px solid #fff;
+    background-color: #e5e4e438;
+    border-radius: 20px;
+}
+.resultado p {
+    padding: 2px;
+}
+
+.displayer {
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    border: 1px solid #fff;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botoes {
+    margin: 5px;
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+}
+
+
+
+.main button {
+    width: 90px;
+    height: 60px;
+    margin: 2px;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    box-shadow: 1px 2px rgba(46, 46, 46, 0.487);
+}
+
+#Delete {
+    cursor: pointer;
+    margin-left: 190px;
+    width: 180px;
+    height: 60px;
+}
+
+.Operadores {
+    cursor: pointer;
+    background-color: #538aff;
+}
+
+.number {
+    cursor: pointer;
+    background-color: #a6c1fd;
+}
+
+#vazio {
+    width: 90px;
+    height: 60px;
+    margin: 2px;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(0, 64, 120);
+    color: rgb(0, 64, 120);
+    border: none;
+    box-shadow: none;
+}
+
+.MetaOperadores {
+    background-color: #8fccf1;
+}
+
+.main button:hover {
+    box-shadow: 0 3px 10px 0 #9c9c9c;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #e0e0e0;
+}
